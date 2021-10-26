@@ -35,7 +35,7 @@ const LoginPage = () => {
         validate,
         onSubmit: values => {
 
-            if (values.email !== 'challenge@alkemy.org' || values.email !== 'gabriel@alkemy.org') {
+            if (values.email !== 'challenge@alkemy.org' && values.email !== 'gabriel@alkemy.org') {
                 alert('Email incorrecto');
             }
 
