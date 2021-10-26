@@ -47,6 +47,10 @@ const LoginPage = () => {
                 LoginAcc(values.email, values.pass);
             }
 
+            if (values.email === 'gabriel@alkemy.org' && values.pass === 'react') {
+                LoginAcc(values.email, values.pass);
+            }
+
         }
     });
 
